@@ -1,0 +1,128 @@
+html,body{
+  height:100%;
+  width:100%;
+}
+body{
+  font: 1.6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.App {
+  display:grid;
+  
+ 
+ grid-template-areas: "header" 
+ "main" 
+ "footer";
+ grid-template-rows: 50px 1fr 50px;
+ grid-template-columns: 1fr;
+height: 100vh;
+
+  
+}
+
+
+header {
+  grid-area: header;
+  color:white;
+    background-color: #282c34;
+   display:flex;
+   align-items: center;
+   
+    
+    
+  }
+
+
+
+
+
+
+main{
+  grid-area:main;
+ 
+  color: rgb(12, 11, 11);
+
+  
+
+}
+footer{
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  color:white;
+  background-color: #282c34;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+  align-items: center;
+  
+}
+#a1{
+margin-left: 80%;
+
+
+
+  
+  
+}
+#a0{
+ margin-right: 20px;
+  margin-left:20px;
+  
+}
+
+
+
+a:hover{
+  color: orange;
+}
+
+
+.content{
+  display:flex;
+ 
+}
+.product{
+  flex:1 60rem;
+
+}
+.cart{
+  flex:1  20rem;
+  
+}
+ 
+
+.products{
+  display:flex;
+  align-items: center;
+ list-style: none;
+  padding:0px;
+  margin:0;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+
+}
+.products li{
+  list-style: none;
+  flex:1 1 29rem;
+ 
+  padding:1rem;
+  margin:1rem;
+}
+.list-contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100%;
+};
+.list-contents img{
+  max-width: 37rem;
+  max-height:37rem;
+}
