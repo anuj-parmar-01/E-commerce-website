@@ -4,7 +4,7 @@ const mongoose= require("mongoose")
 const shortid= require("shortid");
 const app = express();
 app.use(bodyparser.json())
-mongoose.connect("mongodb+srv://Anuj:Anuj123@cluster0.ntimk.mongodb.net/Users?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(connection string,{useNewUrlParser: true, useUnifiedTopology: true })
 const schema= new mongoose.Schema({
     _id:{type:String, default : shortid.generate} ,
     image:String,
