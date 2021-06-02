@@ -74,7 +74,7 @@ export default class Cart extends Component {
                           <button type="submit">Place Order</button>
 
                         </form>
-                        </Fade>
+                        </Fade> 
                     </div>
                 )}
 
